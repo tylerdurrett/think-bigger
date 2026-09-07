@@ -6,6 +6,8 @@ These reports support the [initial Think Bigger decision map](https://github.com
 - [Recent contributions, May–September 2026](recent-contributions-2026.md): a focused timeline of new results, including the Jacobian and Riemann stories and their primary accounts.
 - [Opportunity discovery](opportunity-discovery.md): public research resources, ways to develop questions, and checks on unresolved status.
 - [Research evaluation](research-evaluation.md): deterministic, statistical, and learned assessment, including how to assess the evaluator itself.
+- [Representative candidates](representative-candidates.md): two mathematical planning options and two optional adjacent leads, with validation routes and unresolved evidence needs.
+- [Engineering optimization candidates](engineering-optimization-candidates.md): frequently reused operations and designs, their optimization precedents, and the evidence needed to connect local gains to practical impact.
 
 Treat findings about problem status, model capabilities, tool availability, and resource requirements as dated observations. Recheck the cited primary sources when a later research session depends on them.
 

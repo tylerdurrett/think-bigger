@@ -10,6 +10,18 @@ A question or problem, curated from existing work or developed here, being consi
 **Investigation**:
 An effort to make progress on a candidate problem and gather evidence about its results.
 
+**Exploration**:
+Upfront work to reduce uncertainty about a candidate problem before committing to a solution attempt.
+
+**Prior-work review**:
+Research into existing work to establish what is already known about a candidate problem and what may remain unresolved.
+
+**Solution attempt**:
+An investigation directed at solving a candidate problem.
+
+**Attempt budget**:
+An operator's stated willingness to invest resources in an attempt, expressed in a form suited to that endeavor.
+
 **Operator**:
 The person directing research or an investigation, who may be unfamiliar with the problem's domain.
 
@@ -23,6 +35,7 @@ A new result that advances knowledge or human well-being and is supported by cre
 
 - A **Candidate problem** may lead to multiple **Investigations** over time.
 - An **Operator** works with agents to discover candidate problems and direct investigations.
+- **Exploration** includes **Prior-work review** and informs whether a **Candidate problem** merits a **Solution attempt**.
 - An **Investigation** may use or develop a **Success test**; the test's reliability is itself a question to assess.
 - An **Investigation** may yield a **Contribution**, but an unsuccessful attempt can also produce useful findings.
 
