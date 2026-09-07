@@ -3,6 +3,7 @@
 These reports support the [initial Think Bigger decision map](https://github.com/tylerdurrett/think-bigger/issues/1). They collect evidence for planning; they do not select the project's features or commit resources to an investigation.
 
 - [Documented AI-assisted contributions](ai-assisted-contributions.md): precedents, actual human and AI roles, novelty, validation, and accessibility.
+- [Recent contributions, May–September 2026](recent-contributions-2026.md): a focused timeline of new results, including the Jacobian and Riemann stories and their primary accounts.
 - [Opportunity discovery](opportunity-discovery.md): public research resources, ways to develop questions, and checks on unresolved status.
 - [Research evaluation](research-evaluation.md): deterministic, statistical, and learned assessment, including how to assess the evaluator itself.
 

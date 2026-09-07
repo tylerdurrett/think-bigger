@@ -2,6 +2,8 @@
 
 Research date: 2026-09-07. Prepared for [What can we learn from documented AI-assisted contributions?](https://github.com/tylerdurrett/think-bigger/issues/2).
 
+For a focused recent timeline, including the Jacobian and Riemann stories that may match the operator's recollection, see [Recent AI-assisted contributions: May–September 2026](recent-contributions-2026.md).
+
 ## Scope and answer
 
 This bounded review covers six cases: three mathematical discoveries, one software contribution, one large-scale formalization of established mathematics, and one mathematical rediscovery that clarifies the difference between correctness and novelty. It examines original papers, released artifacts, and records maintained by the people evaluating or integrating the results. It is not an exhaustive survey of the latest models or a reproduction study. No proof, notebook, training run, or benchmark was executed here.
