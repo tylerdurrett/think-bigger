@@ -4,13 +4,23 @@ Research date: 2026-09-07. Prepared for [What can we learn from documented AI-as
 
 ## Scope and answer
 
-This bounded review covers five cases: three mathematical discoveries, one software contribution, and one mathematical rediscovery that clarifies the difference between correctness and novelty. It examines original papers, released artifacts, and records maintained by the people evaluating or integrating the results. It is not a survey of the latest models or a reproduction study. No proof, notebook, training run, or benchmark was executed here.
+This bounded review covers six cases: three mathematical discoveries, one software contribution, one large-scale formalization of established mathematics, and one mathematical rediscovery that clarifies the difference between correctness and novelty. It examines original papers, released artifacts, and records maintained by the people evaluating or integrating the results. It is not an exhaustive survey of the latest models or a reproduction study. No proof, notebook, training run, or benchmark was executed here.
 
 The evidence answers the planning question: useful precedents exist for discovering constructions, generating proofs, and improving small computational routines. They support a research process with explicit problem statements, inspectable outputs, and assessment appropriate to the claim. They do not establish that an unfamiliar operator can reliably obtain a novel result without expert interpretation, or that the original discovery systems can all be run on a personal computer.
 
 The accessibility judgments below are inferences from the released materials. “Public verification” means the artifact and checking route are available; it does not mean this report independently verified it. Historical resource descriptions are dated to their papers. Current commercial service entitlements, pricing, and model availability were not audited.
 
 ## Cases
+
+### Claude and Fermat's Last Theorem: complete formalization, September 2026
+
+**Contribution and operator.** On September 4, Anthropic announced that a project initiated by researcher **Tianyi Peng** produced an end-to-end Lean formalization of Fermat's Last Theorem. It followed an exposition of the existing Wiles–Taylor–Wiles argument. The contribution is machine-checked formalization of established mathematics. Anthropic reports 11 days, roughly six billion output tokens, occasional high-level human direction, and an internal research model roughly comparable to Claude Fable 5.1. The effort used a Claude Code-based multi-agent harness and Prove2Me. [Anthropic's announcement](https://www.anthropic.com/research/formalizing-fermats-last-theorem).
+
+**Independent assessment.** In his September 4 post, **Kevin Buzzard** says he compiled the release and ran comparator successfully. He explains why this is an advance in autoformalization and also why his own project continues: its goals include reusable Mathlib contributions and a human-explorable account of a modern proof. His account independently supports the checking result; it does not audit Anthropic's reported run cost or all agent interactions. [Buzzard's firsthand account, “FLT: Anthropic has beaten me to it”](https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/).
+
+**Artifacts and access.** The public repository documents the final theorem, axiom checks, comparator verification against Mathlib's statement, and a further check using a patched independent kernel. It credits existing human-written Lean projects. Its own reproduction figures include a 96-job build with a 153 GB memory peak and comparator verification requiring substantially more memory. These are the publisher's measurements, not runs performed for this report. The repository is a released research artifact and says it is not maintained or accepting contributions. [Proof, verification instructions, and attribution](https://github.com/anthropics/fermats-last-theorem).
+
+**Planning relevance.** Prove2Me's authors describe missions and mechanisms for agents to collaborate and reuse formal results. This supplies a concrete precedent to study when considering a shared problem collection and coordination tools. [Platform paper, submitted August 28, 2026](https://arxiv.org/abs/2608.28433). Our inference is that formalization can be a worthwhile contribution category even when the underlying theorem is known. The complete FLT campaign demonstrates a larger resource scale than the initial solo attempts envisioned here; it does not establish that an ordinary subscription and personal computer can reproduce the whole discovery run.
 
 ### FunSearch: larger cap sets, December 2023
 
@@ -55,7 +65,7 @@ The accessibility judgments below are inferences from the released materials. �
 These are interpretations of the cases, not product decisions:
 
 - **Correctness, novelty, and significance are different questions.** The thin-bases case separates correctness from priority; the matrix case shows why the exact setting belongs in a novelty claim. A valid artifact does not establish that its conclusion was previously unknown.
-- **Validation and discovery have different access requirements.** All four positive cases provide inspectable outputs. Some release only results, tests, or partial implementations of the discovery system. “I can verify this” is much weaker than “I can reproduce the process that found it.”
+- **Validation and discovery have different access requirements.** The contribution cases provide inspectable outputs. Some release only results, tests, or partial implementations of the discovery system. “I can verify this” is much weaker than “I can reproduce the process that found it.” The FLT release also shows that public checking itself can require substantial hardware.
 - **Human work persists around automated proof or search.** Choosing the formulation, translating outputs, finding prior work, and assessing relevance can be essential even when agents generate the decisive argument. The factorial-divisibility chronology is especially relevant to an operator learning an unfamiliar field.
 - **There are useful intermediate contributions.** Better constructions, improved bounds, new proofs, formalizations, and adopted implementation improvements are distinct outcomes. A full resolution of a famous conjecture is only one form of progress.
 - **An empirical test can support a real contribution.** AlphaDev’s measured performance is meaningful because it accompanies working code and documented integration. It supports claims about tested environments, rather than every workload. This review does not establish when a trained judge is sufficient to validate a new scientific result.
