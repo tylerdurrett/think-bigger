@@ -22,6 +22,9 @@ A precise statement of a proposed contribution, written before a full prior-work
 **Rediscovery hunt**:
 A pass within a full prior-work review whose sole goal is to find the prior or concurrent work that would make a contribution claim a rediscovery, run separately from the search that maps the claim's neighbourhood.
 
+**Material doubt**:
+An unresolved finding from a prior-work review that keeps a candidate problem from being presented as ready for a solution attempt: an unresolved closely related result, conflicting sources, an inaccessible key source, visible concurrent work on the same route, or a nearest known result that could not be identified.
+
 **Solution attempt**:
 An investigation directed at solving a candidate problem.
 
