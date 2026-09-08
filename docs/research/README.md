@@ -8,6 +8,7 @@ These reports support the [initial Think Bigger decision map](https://github.com
 - [Research evaluation](research-evaluation.md): deterministic, statistical, and learned assessment, including how to assess the evaluator itself.
 - [Representative candidates](representative-candidates.md): two mathematical planning options and two optional adjacent leads, with validation routes and unresolved evidence needs.
 - [Engineering optimization candidates](engineering-optimization-candidates.md): frequently reused operations and designs, their optimization precedents, and the evidence needed to connect local gains to practical impact.
+- [Source catalog](source-catalog.md): twenty-two further problem lists, instance libraries, and AI-result indexes beyond the opportunity-discovery seven, with dated maintenance evidence, plus citation-chasing routes for the rediscovery hunt.
 
 Treat findings about problem status, model capabilities, tool availability, and resource requirements as dated observations. Recheck the cited primary sources when a later research session depends on them.
 
