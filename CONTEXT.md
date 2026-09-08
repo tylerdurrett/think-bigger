@@ -16,6 +16,9 @@ Upfront work to reduce uncertainty about a candidate problem before committing t
 **Prior-work review**:
 Research into existing work to establish what is already known about a candidate problem and what may remain unresolved.
 
+**Contribution claim**:
+A precise statement of a proposed contribution, written before a full prior-work review: its type, its exact setting and assumptions, the nearest known result it would surpass, and the prior result that would make it a rediscovery.
+
 **Solution attempt**:
 An investigation directed at solving a candidate problem.
 
@@ -36,6 +39,7 @@ A new result that advances knowledge or human well-being and is supported by cre
 - A **Candidate problem** may lead to multiple **Investigations** over time.
 - An **Operator** works with agents to discover candidate problems and direct investigations.
 - **Exploration** includes **Prior-work review** and informs whether a **Candidate problem** merits a **Solution attempt**.
+- A full **Prior-work review** checks a **Contribution claim**, not merely a **Candidate problem**'s recorded status.
 - An **Investigation** may use or develop a **Success test**; the test's reliability is itself a question to assess.
 - An **Investigation** may yield a **Contribution**, but an unsuccessful attempt can also produce useful findings.
 
