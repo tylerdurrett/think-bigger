@@ -19,6 +19,9 @@ Research into existing work to establish what is already known about a candidate
 **Contribution claim**:
 A precise statement of a proposed contribution, written before a full prior-work review: its type, its exact setting and assumptions, the nearest known result it would surpass, and the prior result that would make it a rediscovery.
 
+**Rediscovery hunt**:
+A pass within a full prior-work review whose sole goal is to find the prior or concurrent work that would make a contribution claim a rediscovery, run separately from the search that maps the claim's neighbourhood.
+
 **Solution attempt**:
 An investigation directed at solving a candidate problem.
 
